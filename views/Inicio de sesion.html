@@ -1,36 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de sesion</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="/Public/img/logo.png" type="image/x-icon">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="../public/css/style.css">   
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/logo.png.PNG" type="image/x-icon">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
-<body class="bodylogin">
-    <header class="header">
-    <div class="menu margen-interno">
-        <div>
-            <img class="imglogo" src="../img/logo.png.PNG" >
+<body>
+        <header class="header ">
+            <div class="menu margen-interno">
+                <div>
+                    <img class="imglogo" src="../public/img/logo.png.PNG" >
+                </div>
+                <nav class="nav">
+                    <a href="../views/index.html"><ion-icon name="planet-outline"></ion-icon>
+                    Inicio</a>
+                    <a href="../views/Noticias.html"><ion-icon name="newspaper-outline"></ion-icon>
+                    Noticias</a>
+                    <div class="subcontainer">
+                        <div class="submenu">
+                          <a href="../views/Guias.html"><ion-icon name="skull-outline"></ion-icon>
+                            Guias
+                            <ul class="submenu-list"> 
+                                <li><a href="../views/mk.html">Mortal Kombat</a></li> 
+                               <li><a href="../views/guiagtasa.html">GTA SA</a></li>
+                                <li><a href="../views/guiam.html">Minecraft</a></li>
+                               <li><a href="../views/guiamegaman.html">MegaMan</a></li>
+                              <li><a href="../views/GuiaGodOfWar2.html">God Of War 2</a></li>
+                               <li><a href="../views/guiare4.html">Resident Evil 4</a></li>
+                           </ul>
+                        </a>
+                        </div>
+                      </div>
+                    <a href="../views/Ea.html"><ion-icon name="game-controller-outline"></ion-icon>
+                    Ea Sports</a>
+                  <a href="../views/Trucos.html"><ion-icon name="key-outline"></ion-icon>
+                    Trucos</a>
+                </nav>
+
+            </div>
         </div>
-        <nav class="nav">
-            <a href="../views/index.html"><ion-icon name="planet-outline"></ion-icon>
-            </i>Inicio</a>
-            <a href="../views/Noticias.html"><ion-icon name="newspaper-outline"></ion-icon>
-            </i>Noticias</a>
-            <a href="../views/Guias.html"><ion-icon name="skull-outline"></ion-icon>
-            </i>Guias</a>
-            <a href=""><ion-icon name="game-controller-outline"></ion-icon>
-            </i>Ea Sports</a>
-            <a href="../views/Noticias.html"><ion-icon name="key-outline"></ion-icon>
-            </i>Trucos</a>
-        </nav>
-        <div class="imglogin1">
-        </div>
-    </div>
     </header>
     <img class="fondo" src="../public/img/galaxia.jpg" alt="">
     <div class="formulario1">
@@ -49,9 +62,6 @@
                 <a href="">¿Olvido su contraseña?</a>
             </div>
             <input type="submit" value="Iniciar Sesion" class="boton_iniciar">
-            <div class="registrarse1">
-                <a href="">Quiero hacer el registro</a>
-            </div>
         </form>
     </div>
 
