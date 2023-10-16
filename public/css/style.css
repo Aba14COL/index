@@ -335,12 +335,21 @@ width: 700px;
             }
             .article a{
                 color: #fff;
-                font-size: 15px;
-                padding: 7px;
+                font-size: 17px;
+                padding: 15px;
                 background: #000;   
                 display: inline-block;
                 border-radius: 10px;
                 margin-top: 3px;
+            }
+            #guia a{
+              color: #fff;
+              font-size: 15px;
+              padding: 6px;
+              background: #000;   
+              display: inline-block;
+              border-radius: 10px;
+              margin-top: 3px;
             }
             .article a:hover{
                 background: #546cc3;
